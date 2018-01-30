@@ -1,0 +1,25 @@
+//        _        _        _______          _________ _______
+//        | \    /\( (    /|(  ____ \|\     /|\__    _/(  ____ \
+//        |  \  / /|  \  ( || (    \/( \   / )   )  (  | (    \/
+//        |  (_/ / |   \ | || (__     \ (_) /    |  |  | (_____
+//        |   _ (  | (\ \) ||  __)     ) _ (     |  |  (_____  )
+//        |  ( \ \ | | \   || (       / ( ) \    |  |        ) |
+//        |  /  \ \| )  \  || (____/\( /   \ )|\_)  )  /\____) |
+//        |_/    \/|/    )_)(_______/|/     \|(____/   \_______)
+
+// Overview: KnexJS is a query builder for Postgres, MSSQL, MySQL, MariaDB, SQLite3, and Oracle.
+//
+// Why I use it:
+//   - It uses callbacks and promises.
+//   - The shortcut queries are really useful
+//   - I can write raw SQL if I want to, but I don't have to.
+//   - The command line tools to create/rollback migrations and create/run seeding are great.
+
+// Assumptions:
+// You have Postgres installed and working on your computer
+
+// Steps
+// 1. Globally install Knex via NPM.
+// 2. Install Node, ExpressJS, KnexJS, and PG with NPM.
+// 3. Create Express boilerplate
+// 4. Create knexfile.js
